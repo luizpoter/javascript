@@ -9,7 +9,7 @@ const calcularImc = () => {
         document.getElementById("resultado");
 
     if (nome !== '' && peso !== '' && altura !== '') {
-        const imc = (peso / (altura * altura));
+        const imc = (peso / (altura * altura)).toFixed(2);
         //comando para exibir no console 'f12'
         console.log('altura: ', altura);
 
@@ -18,7 +18,7 @@ const calcularImc = () => {
         if (imc < 18.5) {
             classificacao = 'Abaixo do peso';
         } else if (imc < 25) {
-            classificacao = 'compeso ideal. parabens!!!';
+            classificacao = 'com o peso ideal. parabens!!!';
         } else if (imc < 30) {
             classificacao = 'levemente acima do peso.';
         } else if (imc < 35) {
@@ -49,7 +49,7 @@ const limparCampos = () => {
 
 const mascaraAltura = (value, pattern) => {
     let i = 0;
-    let v = value.tostring();
+    let v = value.toString();
     v = v.replace(/\D/g, '');
     return pattern.replace(/#/g, () => v[i++] || '');
 };
