@@ -35,7 +35,7 @@ const calcularImc = () => {
         resultado.textContent =
             'preencha todos os campos';
     }
-
+    limparCampos();
 };
 
 const limparCampos = () => {
