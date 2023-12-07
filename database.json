@@ -1,18 +1,27 @@
 {
-    "alunos": [{
-            "id": 1,
-            "nome": "Julinha",
-            "curso": "Frontend"
-        },
-        {
-            "id": 2,
-            "nome": "Vegas",
-            "curso": "Frontend / Infra"
-        },
-        {
-            "id": 3,
-            "nome": "Inacio",
-            "curso": "Frontend"
-        }
-    ]
+  "filmes": [
+    {
+      "id": 1,
+      "title": "json atava novamente",
+      "author": "Felipe"
+    },
+    {
+      "id": 2,
+      "title": "uma noite no museu",
+      "author": "Lipe"
+    },
+    {
+      "id": 3,
+      "title": "percy jackson e o ladrão de raios",
+      "author": "Luiz"
+    },
+    {
+      "id": 4,
+      "title": "percy jackson e o mar de monstros",
+      "author": "Luiz"
+    },
+    {
+      "id": 5
+    }
+  ]
 }
