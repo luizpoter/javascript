@@ -13,13 +13,7 @@
       "preco": 200
     },
     {
-      "id": 3,
-      "title": "Devil may Cry",
-      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Far-Cry-4.png",
-      "preco": 200
-    },
-    {
-      "nome": "The legend of Zelda",
+      "title": "The legend of Zelda",
       "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
       "preco": 100,
       "id": 4
