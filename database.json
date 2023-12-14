@@ -1,16 +1,21 @@
 {
-  "jogos": [
-    {
-      "id": 1,
-      "title": "Dark Souls",
-      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
-      "preco": 300
-    },
-    {
-      "id": 2,
-      "title": "Far Cry 8",
-      "img": "https://codetheworld.io/wp-content/uploads/2023/12/Far-Cry-4.png",
-      "preco": 200
-    }
-  ]
+    "jogos": [{
+            "id": 1,
+            "title": "Dark Souls",
+            "img": "https://codetheworld.io/wp-content/uploads/2023/12/Dark-Souls.png",
+            "preco": 300
+        },
+        {
+            "id": 2,
+            "title": "Far Cry 8",
+            "img": "https://codetheworld.io/wp-content/uploads/2023/12/Far-Cry-4.png",
+            "preco": 200
+        },
+        {
+            "title": "The legend of Zelda",
+            "img": "https://zelda.nintendo.com/tears-of-the-kingdom/_images/game/logo-shadow.png",
+            "preco": 100,
+            "id": 3
+        }
+    ]
 }

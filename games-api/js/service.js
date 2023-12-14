@@ -19,13 +19,13 @@ export const getAllGames = async() => {
     }
 };
 
-export const createGames = async() => {
+export const createGame = async(jogo) => {
     fetch(URL, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(jogoTeste)
+            body: JSON.stringify(jogo)
         })
         .then(response => response.json())
         .then(data => console.log('sucesso: ', data))
@@ -33,15 +33,21 @@ export const createGames = async() => {
 
 };
 
-export const deleteGame = async(game) => {
-    fetch(URL + `/${game.id}`, { method: 'DELETE' })
+export const deleteGame = async(jogo) => {
+    fetch(URL + `/${jogo.id}`, { method: 'DELETE' })
         .then(response => response.json())
         .then(data => console.log('Success:', data))
         .catch(error => console.error('Error:', error));
 };
 
-export const updateGame = async(game) => {
-    fetch(URL + `/${game.id}`, { method: 'PATCH' })
+export const updateGame = async(jogo) => {
+    fetch(URL + `/${jogo.id}`, {
+            method: 'PATCH',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(jogo)
+        })
         .then(response => response.json())
         .then(data => console.log('Success:', data))
         .catch(error => console.error('Error:', error));
