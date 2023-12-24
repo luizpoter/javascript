@@ -19,9 +19,10 @@ const loadRicos = () => {
                 `
                 <div class="containerRicos">
                     <img class="cardimg" src="${ricos.img}" alt="${ricos.name}"<hr>
-                    <h5 class="cardtitle">${ricos.name}</h5>
+                    <h5 class="cardtitle">${ricos.nome}</h5>
                     <hr>
-                    <p class="cardtext">US$ ${ricos.fortuna}</p>                    
+                    <p class="cardtext">US$ ${ricos.fortuna}</p>
+                    <hr>
                 </div>
             `;
             dataContainer.appendChild(ricosElement);
